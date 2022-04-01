@@ -1023,32 +1023,36 @@ async function getData(url) {
   }
 }
 
-// async function getData1() {
-//  let HTML_Data1 = await getData("http://localhost:5700/html_course")
-//   slide("html-slide", "prevbtn-html", "nextbtn-html", HTML_Data1);
-// }
-// getData1()
-async function getData2() {
-  let Top_Pick_Data1 = await getData("http://localhost:5700/top_pick_course");
+async function html_course() {
+ let HTML_Data1 = await getData("https://lynda01.herokuapp.com/html_course")
+  slide("html-slide", "prevbtn-html", "nextbtn-html", HTML_Data1);
+}
+html_course()
+async function top_pick_course() {
+  let Top_Pick_Data1 = await getData("https://lynda01.herokuapp.com/top_pick_course");
 
   slide("top-pick-slide", "prevbtn-tp", "nextbtn-tp", Top_Pick_Data1);
 }
-getData2();
-async function getData3() {
-  let New_Release1 = await getData("http://localhost:5700/new_releases");
+top_pick_course();
+async function new_releases() {
+  let New_Release1 = await getData("https://lynda01.herokuapp.com/new_releases");
 
   slide("nr-slide", "prevbtn-nr", "nextbtn-nr", New_Release1);
 }
-getData3();
+async function css_course() {
+  let CSS_Data1 = await getData("https://lynda01.herokuapp.com/css_course");
+  slide("css-slide", "prevbtn-css", "nextbtn-css", CSS_Data1);
+}
+css_course();
 
 //    <!-- Appending data top-pick div  -->
 // slide("top-pick-slide", "prevbtn-tp", "nextbtn-tp", Top_Pick_Data);
 //  <!-- Appending Popular on LinkedIn Learning div  -->
 slide("popular-earning-slide", "prevbtn-pl", "nextbtn-pl", Popular_Data);
 //  <!-- Appending  Hyper Text Markup Language (HTML) div  -->
-slide("html-slide", "prevbtn-html", "nextbtn-html", HTML_Data);
+// slide("html-slide", "prevbtn-html", "nextbtn-html", HTML_Data);
 //  <!-- Appending  Cascading Style Sheets (CSS)  div  -->
-slide("css-slide", "prevbtn-css", "nextbtn-css", CSS_Data);
+// slide("css-slide", "prevbtn-css", "nextbtn-css", CSS_Data);
 //  <!-- Appending  JavaScript (JS)  div  -->
 slide("js-slide", "prevbtn-js", "nextbtn-js", JavaScript_Data);
 //  <!-- Appending  New Releases (nr)  div  -->
