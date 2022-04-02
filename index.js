@@ -1096,12 +1096,12 @@ for (var i = 0; i < DB.length; i++) {
   }
 }
 
-let usrNames = JSON.parse(localStorage.getItem("usrNames"));
-console.log("usrNames:", usrNames);
-var fisrt_name = usrNames[0].firstName;
-console.log("fisrt_name:", fisrt_name);
+let usrNames = JSON.parse(localStorage.getItem("logindata"));
+// console.log("usrNames:", usrNames);
+var fisrt_name = usrNames.user.firstName;
+// console.log("fisrt_name:", fisrt_name);
 let user_name = document.querySelectorAll(".user-name");
-console.log("user_name:", user_name);
+// console.log("user_name:", user_name);
 for (let i = 0; i < user_name.length; i++) {
   user_name[i].innerHTML = fisrt_name;
 }
