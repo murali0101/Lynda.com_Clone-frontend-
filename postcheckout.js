@@ -1,6 +1,6 @@
-var uN  = JSON.parse(localStorage.getItem("usrNames"));
-var Fname = uN[0].firstName;
-var Lname = uN[0].lastName;
+var uN  = JSON.parse(localStorage.getItem("logindata"));
+var Fname = uN.user.firstName;
+var Lname = uN.user.lastName;
 
 document.querySelector("#FN").value = Fname;
 document.querySelector("#FN1").append(Fname);
@@ -25,7 +25,7 @@ function annual(){
 
 
 function signOut (){
-    localStorage.removeItem("usrNames");
+    localStorage.removeItem("logindata");
     localStorage.removeItem("signInDataBase");
     alert("you are logging out!!!");
     window.location.href = "index.html";
