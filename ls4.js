@@ -1,5 +1,5 @@
 document.querySelector("form").addEventListener("submit", fn4);
-var s4 = JSON.parse(localStorage.getItem("DB4")) || [];
+// var s4 = JSON.parse(localStorage.getItem("DB4")) || [];
 var s3 = JSON.parse(localStorage.getItem("DB3"));
 var mail = s3[s3.length-1].Mail;
 var passwd = s3[s3.length-1].Password;
@@ -9,17 +9,74 @@ var Cname = s3[s3.length-1].Country;
 var Cname2 = s3[s3.length-1].City;
 function fn4 (event){
     event.preventDefault();
-    var var1 = document.querySelector("#jobtitle").value;
-    var obj4 = {
-        Mail : mail,
-        Password : passwd,
-        FirstName : Fname,
-        LastName : Lname,
-        Country : Cname,
-        City : Cname2,
-        JobTitle : var1,
-    }
-    s4.push(obj4);
-    localStorage.setItem("DB4", JSON.stringify(s4));
-    window.location.href = "ls5.html";
+     var jobtitles = document.querySelector("#jobtitle").value;
+    // var obj4 = {
+    //     Mail : mail,
+    //     Password : passwd,
+    //     FirstName : Fname,
+    //     LastName : Lname,
+    //     Country : Cname,
+    //     City : Cname2,
+    //     JobTitle : jobtitles,
+    // }
+    // s4.push(obj4);
+    // localStorage.setItem("DB4", JSON.stringify(s4));
+    register(Fname,Lname,Cname,Cname2,mail,passwd,jobtitles);
+
 }
+
+
+
+async function register(Fname,Lname,Cname,Cname2,mail,passwd,jobtitles) {
+    try {
+      let registerData = {
+        firstName: Fname,
+        lastName: Lname,
+        job_title: jobtitles,
+        email: mail,
+        password: passwd,
+        country_region: Cname,
+        city_district: Cname2,
+      };
+      registerData = JSON.stringify(registerData);
+     
+      let res = await fetch("https://lynda01.herokuapp.com/register", {
+        method: "POST",
+        body: registerData,
+        headers: {
+          "Content-Type": "application/json",
+        },
+      });
+      let user = await res.json();
+      console.log("user:", user);
+      if(user.status){
+          window.location.href = "ls5.html";
+      }
+      else{
+          alert("user exist")
+      }
+    } catch (error) {
+      console.log("error:", error);
+    }
+  }
+//   async function login() {
+//     try {
+//       let loginData = {
+//         password: document.querySelector("#password_login").value,
+//         email: document.querySelector("#email_login").value,
+//       };
+//       loginData = JSON.stringify(loginData);
+
+//       let res = await fetch("https://lynda01.herokuapp.com/login", {
+//         method: "POST",
+//         body: loginData,
+//         headers: {
+//           "Content-Type": "application/json",
+//         },
+//       });
+//       let user = await res.json();
+//       console.log("user:", user);
+//     } catch (error) {
+//       console.log("error:", error);
+//     }
+//   }
