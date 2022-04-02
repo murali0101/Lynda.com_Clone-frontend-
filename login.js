@@ -14,13 +14,11 @@ function logIn (event){
 // console.log("correctpw:",correctpw);
 // console.log("inputpw:",password);
 
-    if(correctpw==password){
-        alert("login Sucessful");
-        window.location.href = "index.html";
-    }
-    else {
-        alert("wrong password");
-    }
+  
+        
+        login(correctpw,correctmail);
+        
+    
 }
 
 function showpass(){
@@ -42,3 +40,34 @@ function showpass(){
         }
 
     }
+
+async function login(correctpw, correctmail) {
+    try {
+      let loginData = {
+        password: correctpw,
+        email: correctmail,
+      };
+      loginData = JSON.stringify(loginData);
+
+      let res = await fetch("https://lynda01.herokuapp.com/login", {
+        method: "POST",
+        body: loginData,
+        headers: {
+          "Content-Type": "application/json",
+        },
+      });
+      let user = await res.json();
+      if(user.status){
+          localStorage.setItem("logindata", JSON.stringify(user));
+          alert("login Sucessful");
+          window.location.href = "index.html";
+      }
+      else{
+
+          alert("Wrong Password")
+      }
+      console.log("user:", user);
+    } catch (error) {
+      console.log("error:", error);
+    }
+  }
