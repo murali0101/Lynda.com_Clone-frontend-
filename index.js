@@ -1078,25 +1078,26 @@ var homeusr = JSON.parse(localStorage.getItem("signInDataBase"));
 var userMail = homeusr[0].emailAd;
 var stack = []; // JSON.parse(localStorage.getItem("usrNames")) ||
 // document.querySelector("#usrName").append(userMail);
-var DB = JSON.parse(localStorage.getItem("DB4"));
+// var DB = JSON.parse(localStorage.getItem("DB4"));
 // console.log(DB);
-for (var i = 0; i < DB.length; i++) {
-  if (userMail == DB[i].Mail) {
-    // document.querySelector("#usrName").append(DB[i].FirstName);
-    // console.log(DB[i].FirstName);
-    var fn = DB[i].FirstName;
-    var ln = DB[i].LastName;
-    var obj = {
-      firstName: fn,
-      lastName: ln,
-    };
-    stack.push(obj);
-    localStorage.setItem("usrNames", JSON.stringify(stack));
-    break;
-  }
-}
+// for (var i = 0; i < DB.length; i++) {
+//   if (userMail == DB[i].Mail) {
+//     // document.querySelector("#usrName").append(DB[i].FirstName);
+//     // console.log(DB[i].FirstName);
+//     var fn = DB[i].FirstName;
+//     var ln = DB[i].LastName;
+//     var obj = {
+//       firstName: fn,
+//       lastName: ln,
+//     };
+//     stack.push(obj);
+//     localStorage.setItem("usrNames", JSON.stringify(stack));
+//     break;
+//   }
+// }
 
 let usrNames = JSON.parse(localStorage.getItem("logindata"));
+console.log(usrNames);
 // console.log("usrNames:", usrNames);
 var fisrt_name = usrNames.user.firstName;
 // console.log("fisrt_name:", fisrt_name);
