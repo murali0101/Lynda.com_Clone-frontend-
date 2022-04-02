@@ -2,9 +2,10 @@
 // var regUsrs1 = JSON.parse(localStorage.getItem("userDataBase"));
 var signInusr = JSON.parse(localStorage.getItem("signInDataBase"));
 // console.log(signInusr);
-var correctpw = signInusr[signInusr.length-1].passwd;
+// var correctpw = signInusr[signInusr.length-1].passwd;
 // console.log(correctpw);
-var correctmail = signInusr[signInusr.length-1].emailAd;
+// var correctmail = signInusr[signInusr.length-1].emailAd;
+var correctmail = signInusr;
 document.querySelector("#emailappend").append(correctmail);
 
 document.querySelector("form").addEventListener("submit", logIn);
@@ -16,7 +17,7 @@ function logIn (event){
 
   
         
-        login(correctpw,correctmail);
+        login(password,correctmail);
         
     
 }
