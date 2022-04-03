@@ -59,24 +59,3 @@ async function register(Fname,Lname,Cname,Cname2,mail,passwd,jobtitles) {
       console.log("error:", error);
     }
   }
-//   async function login() {
-//     try {
-//       let loginData = {
-//         password: document.querySelector("#password_login").value,
-//         email: document.querySelector("#email_login").value,
-//       };
-//       loginData = JSON.stringify(loginData);
-
-//       let res = await fetch("https://lynda01.herokuapp.com/login", {
-//         method: "POST",
-//         body: loginData,
-//         headers: {
-//           "Content-Type": "application/json",
-//         },
-//       });
-//       let user = await res.json();
-//       console.log("user:", user);
-//     } catch (error) {
-//       console.log("error:", error);
-//     }
-//   }
