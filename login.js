@@ -7,7 +7,7 @@ var signInusr = JSON.parse(localStorage.getItem("signInDataBase"));
 // var correctmail = signInusr[signInusr.length-1].emailAd;
 var correctmail = signInusr;
 document.querySelector("#emailappend").append(correctmail);
-
+document.getElementById("cursor1").style.cursor = cell;
 document.querySelector("form").addEventListener("submit", logIn);
 function logIn (event){
     event.preventDefault();
