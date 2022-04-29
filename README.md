@@ -16,8 +16,8 @@ https://github.com/HemachandraS/Lynda.com_Clone.git
 # Lynda-Website-Clone
 #### About Lynda
 >  A web application to learn business, creativity, and technology skills to achieve your personal and professional goals.
-
->  
+![lynda](https://user-images.githubusercontent.com/66964293/165968776-e3b7031a-f55e-4ce2-9f6b-21c24ed736b8.gif)
+ 
 # Video link:
  #### we have shared a demo presentation of this project "Lynda-clone".
  
