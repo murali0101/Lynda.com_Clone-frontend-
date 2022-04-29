@@ -1,34 +1,41 @@
-####  Lynda.com.com_web_clone
+####  Lynda.com_web_clone
 This is clone of  Lynda.com.com, where we have used HTML, CSS and Javascript to acheive this.
 In this project we have tried to clone the “ Lynda.com” website. We had build up all our efforts to do our best in this project. As, the Masai School's Mentorship  was specifically to build up our skills and we also accordingly implemented all that teachings in our project to look it at its best.
 
 <br/>
 
-
-![skinstore](https://user-images.githubusercontent.com/66964293/165706636-c182a571-3a0a-48a1-a080-bd3843e67831.png)
-
-### Live Site(https://skinstore.netlify.app/)
+![linkedin-learning-logo-png-1](https://user-images.githubusercontent.com/66964293/165929436-ae142744-9883-4efa-a08e-df13321de6ee.png)
 
 
-# SkinStore-Website-Clone
-#### About SkinStore
->  SkinStore is an online store selling cosmetics, fragrances, skin, and hair care products. It gives an online space to beauty and wellness needs that showcases some of the beauty brands and products. SkinStore aims to take shopping experience to a different level. 
+
+### Live Site(https://lynda01.netlify.app/)
+
+
+# Lynda-Website-Clone
+#### About Lynda
+>  A web application to learn business, creativity, and technology skills to achieve your personal and professional goals.
+
 >  
 # Video link:
- #### we have shared a demo presentation of this project "SkinStore-clone".
+ #### we have shared a demo presentation of this project "Lynda-clone".
  
-https://drive.google.com/file/d/1efITwbxQ6m7tjnCt0pIycm9ZcfSGocyI/view?usp=sharing
+https://drive.google.com/file/d/1HcJwQyscGW0PH_jIiWlY6Ssi5O1-vPJt/view?usp=sharing
  
 # Snapshots
-![image](https://user-images.githubusercontent.com/66964293/165708790-455cc968-3555-48a9-ae42-869d14476cdb.png)
+![image](https://user-images.githubusercontent.com/66964293/165930366-68cefc0b-9c78-49ab-ad40-32a9d3fc2ba7.png)
 
-![image](https://user-images.githubusercontent.com/66964293/165708602-9b0419d9-2157-4e0d-9e72-13ba65f134e0.png)
-![image](https://user-images.githubusercontent.com/66964293/165708910-c6db2eaf-dd3f-4cc4-895c-dfe0f4d1eb37.png)
-![image](https://user-images.githubusercontent.com/66964293/165709003-5cf7551b-1f92-406f-8b7a-31c9967a8aa6.png)
-![image](https://user-images.githubusercontent.com/66964293/165709256-5364d178-528b-4845-af49-2b28d7cecfc0.png)
-![image](https://user-images.githubusercontent.com/66964293/165709437-6a83cd74-e5f7-4dc2-a2d7-e7cd00fa9262.png)
-![image](https://user-images.githubusercontent.com/66964293/165709551-5047372b-2d78-4490-9bde-9650bb1c6064.png)
-![image](https://user-images.githubusercontent.com/66964293/165709840-512e124b-2685-47b7-836e-38c80803ad01.png)
+![image](https://user-images.githubusercontent.com/66964293/165931381-a45a5fc9-249f-462f-8961-efd420992768.png)
+
+![image](https://user-images.githubusercontent.com/66964293/165930710-9ec69fd1-1c63-4d5f-ab5c-e93e0d601388.png)
+
+![image](https://user-images.githubusercontent.com/66964293/165931508-380f5b04-087d-45e1-9a22-e204e401f457.png)
+
+
+![image](https://user-images.githubusercontent.com/66964293/165930644-a1888896-dc39-41b4-b44a-79bbcca43915.png)
+
+![image](https://user-images.githubusercontent.com/66964293/165930586-56e53934-3a97-4ba0-88c1-ec1448b0cb66.png)
+
+
 
 
 
