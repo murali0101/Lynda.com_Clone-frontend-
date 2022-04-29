@@ -10,6 +10,8 @@ In this project we have tried to clone the “ Lynda.com” website. We had buil
 
 ### Live Site(https://lynda01.netlify.app/)
 
+### Backend repo link
+https://github.com/HemachandraS/Lynda.com_Clone.git
 
 # Lynda-Website-Clone
 #### About Lynda
@@ -39,9 +41,9 @@ https://drive.google.com/file/d/1HcJwQyscGW0PH_jIiWlY6Ssi5O1-vPJt/view?usp=shari
 ![image](https://user-images.githubusercontent.com/66964293/165932482-c39f2732-e184-4fca-9c83-aaf841b38cec.png)
 
 
+# Blog link: 
 
-
-
+  https://medium.com/@muralimv0101/cloning-of-linkedin-learning-lynda-com-a48f98efa944
 
 # Technology We Used :computer: 
 1. HTML5
@@ -53,25 +55,18 @@ https://drive.google.com/file/d/1HcJwQyscGW0PH_jIiWlY6Ssi5O1-vPJt/view?usp=shari
 
 2. You can choose a product which you want to buy and add to cart section.
 
-3. One can Sort and Filter the product according to the prices and categories of different products.
-
-4. User can also select and remove items from cart section and make payment through card.
-
-5. All the data is stored in the localStorage of the User. 
+3. All the data is stored in the server of the User. 
 
 ## Instructions to Run the Code 
 
-- Clone my repository `https://github.com/murali0101/Skin-Store-Construct-Week-Project.git`
-- Open that code in your VS code `landingPage.html`
+- Clone my repository `https://github.com/murali0101/Lynda.com_Clone-frontend-.git`
+- Open that code in your VS code `index.html`
 - Open the `landingPage.html` on Live server
-- Then you can Navigate through other pages from Landing page like `loginin.html`, `cart.html`, `wishlist.html` etc.
+- Then you can Navigate through other pages from Landing page like `loginin.html`, `product.html`,checkout.html etc.
 
 
-#_Clone-frontend-
-We have tried to built the clone of the Linkedin acquired learning platform known as Lynda.com with the team of 6 developers in a span of 4 days. We have created our own frontend and  REST API database to construct this website. In the key features a user can go through all courses, filter and Purchase these courses etc.
-<br>
+
 Website link:-https://lynda01.netlify.app/
 <br>
-Backend link repo link:-https://github.com/HemachandraS/Lynda.com_Clone.git
-<br>
-Blog link:-https://medium.com/@muralimv0101/cloning-of-linkedin-learning-lynda-com-a48f98efa944
+
+
