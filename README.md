@@ -34,6 +34,9 @@ https://drive.google.com/file/d/1HcJwQyscGW0PH_jIiWlY6Ssi5O1-vPJt/view?usp=shari
 ![image](https://user-images.githubusercontent.com/66964293/165930644-a1888896-dc39-41b4-b44a-79bbcca43915.png)
 
 ![image](https://user-images.githubusercontent.com/66964293/165930586-56e53934-3a97-4ba0-88c1-ec1448b0cb66.png)
+![image](https://user-images.githubusercontent.com/66964293/165932346-aa0c5533-f786-4473-84ee-b0ddb54c59b3.png)
+![image](https://user-images.githubusercontent.com/66964293/165932414-8e2c655a-6a53-4b21-8786-f56d695f8229.png)
+![image](https://user-images.githubusercontent.com/66964293/165932482-c39f2732-e184-4fca-9c83-aaf841b38cec.png)
 
 
 
