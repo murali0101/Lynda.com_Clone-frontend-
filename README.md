@@ -51,6 +51,9 @@ https://drive.google.com/file/d/1HcJwQyscGW0PH_jIiWlY6Ssi5O1-vPJt/view?usp=shari
 1. HTML5
 2. CSS3
 3. Advanced JavaScript
+4. Node JS
+5. Express
+6. MongoDB
 
 # Features
 1. You will be able to create your account using login and signup option.
