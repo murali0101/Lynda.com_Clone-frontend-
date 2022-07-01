@@ -67,7 +67,7 @@ https://drive.google.com/file/d/1HcJwQyscGW0PH_jIiWlY6Ssi5O1-vPJt/view?usp=shari
 - Clone my repository `https://github.com/murali0101/Lynda.com_Clone-frontend-.git`
 - Open that code in your VS code `index.html`
 - Open the `index.html` on Live server
-- Then you can Navigate through other pages from Landing page like `loginin.html`, `product.html`,`checkout.html` etc.
+- Then you can Navigate through other pages from Landing page like `login.html`, `product.html`,`checkout.html` etc.
 
 
 
